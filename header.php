@@ -2,6 +2,25 @@
 <html lang="ja">
 <head prefix="og: http://ogp.me/ns#">
 <meta charset="utf-8">
+
+<!-- original css -->
+<link rel="stylesheet" type="text/css" href="css/originalstyle.css">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300|Julius+Sans+One|Montserrat:300|Nunito+Sans:200|Quicksand:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Upright:600|Italianno|Parisienne|Petit+Formal+Script|Sofia|Spirax|Stalemate|Tangerine:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/earlyaccess/sawarabimincho.css" rel="stylesheet" />
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+<script type="text/javascript" src="js/titleLogoAnimation.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- css end -->
+
+
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0 ">
 
@@ -63,35 +82,42 @@ content="width=device-width, initial-scale=1.0 ">
 </head>
 <body <?php body_class(); ?>>
 <header>
-  <div class="header-inner">
-
-    <!--タイトルを画像にする場合-->
-    <div class="site-title">
-    <h1><a href="<?php echo home_url(); ?>">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/title.png" alt="<?php bloginfo( 'name' ); ?>"/>
-    </a></h1>
+<div id="headerWrap">
+<div id="header">
+        <h1 id="logo" style="display:block"><a href="#top">
+<img src="<?php echo get_template_directory_uri(); ?>/images/headerLogoS_b.png"  width="155" height="52" alt="四柱推命・九星気学の専門鑑定師　あわしま占い部"/></a></h1>
+        <ul id="gnavi">
+                <li><a href="#reservation">reservation</a></li>
+                <li><a href="#main_contact">contact</a></li>
+                <li><a href="#main_blog">blog</a></li>
+                 <li><a href="#main_services">services&amp;price</a></li>
+                <li class="current"><a href="#main_profile">profile</a></li>
+        </ul>
+</div><!-- header end -->
+ 
+<div class="toggle">
+    <span class="toggle_line _1"></span>
+        <span class="toggle_line _2"></span>
+        <!--span class="toggle_line _3"></span-->
+</div><!--toggle end-->
+ 
+ 
+<nav class="smallSize">
+    <div class="toggle-nav_body">
+        <h1 class="toggle-logo"><a href="#"><img src="images/coccinelli_s.png" width="41" height="46" alt="四柱推命・九星気学の専門鑑定師　あわしま占い部"></a></h1>
+            <ul id="toggle-nav">
+            <li><a href="#main_profile">profile</a></li>
+            <li><a href="#main_services">services&amp;price</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">reservation</a></li>
+            </ul>
+ 
     </div>
-
-    <!--タイトルを文字にする場合
-    <div class="site-title">
-    <h1><a href="<?php echo home_url(); ?>">
-      <?php bloginfo( 'name' ); ?>
-    </a></h1>-->
-
-    <!--スマホ用メニューボタン-->
-    <button type="button" id="navbutton">
-     <i class="fas fa-list-ul"></i>
-    </button>
-    </div>
-  </div><!--end header-inner-->
-  <!--ヘッダーメニュー-->
-  <?php wp_nav_menu( array(
-        'theme_location' => 'header-nav',
-        'container' => 'nav',
-        'container_class' => 'header-nav',
-        'container_id' => 'header-nav',
-        'fallback_cb' => ''
-  ) ); ?>
+</nav>
+ 
+ 
+</div><!-- headerWrap end -->
 
 
 
