@@ -42,6 +42,10 @@ footer {
   padding: 10px;
 }
 
+.container {
+  padding-top: 76px;
+}
+
 div#footer {
         margin:0 auto;
         width: 80%;    
@@ -241,7 +245,7 @@ address {
 
 /*------フッター------*/
 footer {
-  background-color: #23282d;
+  
 }
 
 /*フッターメニュー*/

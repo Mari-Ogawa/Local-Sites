@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 
 <!-- original css -->
-<link rel="stylesheet" type="text/css" href="css/originalstyle.css">
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300|Julius+Sans+One|Montserrat:300|Nunito+Sans:200|Quicksand:300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright:600|Italianno|Parisienne|Petit+Formal+Script|Sofia|Spirax|Stalemate|Tangerine:700" rel="stylesheet">
@@ -13,7 +12,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 <script type="text/javascript" src="js/titleLogoAnimation.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -71,7 +70,10 @@ content="width=device-width, initial-scale=1.0 ">
   <!-- <meta property="og:image" content="表示したい画像のパス"> -->
 <?php endif; ?>
 
-<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" type="text/css" />
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/originalstyle.css" type="text/css" />
+<!--script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script-->
+<script src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri() ?>/images/webclipicon.png" />
