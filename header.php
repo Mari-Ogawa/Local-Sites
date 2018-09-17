@@ -106,7 +106,7 @@ content="width=device-width, initial-scale=1.0 ">
  
 <nav class="smallSize">
     <div class="toggle-nav_body">
-        <h1 class="toggle-logo"><a href="#"><img src="images/coccinelli_s.png" width="41" height="46" alt="四柱推命・九星気学の専門鑑定師　あわしま占い部"></a></h1>
+        <h1 class="toggle-logo"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/coccinelli_s.png" width="41" height="46" alt="四柱推命・九星気学の専門鑑定師　あわしま占い部"></a></h1>
             <ul id="toggle-nav">
             <li><a href="#main_profile">profile</a></li>
             <li><a href="#main_services">services&amp;price</a></li>

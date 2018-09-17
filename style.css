@@ -28,10 +28,11 @@ header {
   border-bottom: solid 1px #ddd;
 }
 
+/*
 footer {
   border-top: solid 1px #ddd;
 }
-
+*/
 .header-inner, .container, .footer-inner {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
