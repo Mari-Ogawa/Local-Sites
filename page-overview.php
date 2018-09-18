@@ -1,3 +1,7 @@
+<?php
+Template Name: サイト概要
+?>
+
 <?php get_header(); ?>
 <section>
 <div id="main_profile">
@@ -260,4 +264,5 @@
 </section>
  
 <div id="page_top"><a href="#"></a></div>
+
 <?php get_footer(); ?>

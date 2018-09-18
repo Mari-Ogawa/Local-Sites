@@ -20,8 +20,7 @@
 <!-- css end -->
 
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0 ">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <?php if(is_tag() || is_date() || is_search() || is_404()) : ?>
   <meta name="robots" content="noindex"/>

@@ -47,16 +47,16 @@ jQuery(function() {
  
 //一定期間後非表示にする
 setTimeout(function() {
-    jQuery('#text1').fadeOut(3);
-    jQuery('#text2').fadeOut(3);
-    jQuery('#text3').fadeOut(3);
-}, 7);
+    jQuery('#text1').fadeOut(3000);
+    jQuery('#text2').fadeOut(3000);
+    jQuery('#text3').fadeOut(3000);
+}, 7000);
 //3000 と　7000にそれぞれ修正
  
 setTimeout(function() {
     jQuery('#wrapper').fadeIn('slow');
 },
-11);
+11000);
 //  11000に修正
  
  
