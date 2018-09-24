@@ -11,7 +11,6 @@ register_nav_menu( 'footer-nav',  ' フッターナビゲーション ' );
 //メニューボタンjs呼び出し
 function navbutton_scripts(){
   wp_enqueue_script( 'navbutton_script', get_template_directory_uri() .'/js/navbutton.js', array('jquery') );
-  wp_enqueue_script( 'main_script', get_template_directory_uri() .'/js/main.js', array('jquery') );
 }
 add_action( 'wp_enqueue_scripts' , 'navbutton_scripts' );
 

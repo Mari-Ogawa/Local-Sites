@@ -1,8 +1,9 @@
-<?php
-Template Name: サイト概要
-?>
 
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: サイト概要
+ */
+get_header(); ?>
 <section>
 <div id="main_profile">
 <img src="<?php echo get_template_directory_uri(); ?>/images/profImg.png" alt="自己紹介">
@@ -263,6 +264,6 @@ Template Name: サイト概要
 </div>
 </section>
  
-<div id="page_top"><a href="#"></a></div>
+<div id="page_top"><a href="main_profile"></a></div>
 
 <?php get_footer(); ?>

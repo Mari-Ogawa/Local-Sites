@@ -1,3 +1,8 @@
+<?php
+/**
+ * Template Name: イントロ
+ */
+  ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head prefix="og: http://ogp.me/ns#">
@@ -12,7 +17,6 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
 <script type="text/javascript" src="js/titleLogoAnimation.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -105,7 +109,7 @@
 </div>
  
 <div class="guide">
-<p>SCROLL DOWN<a href="#"><i class="fa fa-angle-down"></i></a></p>
+<p>SCROLL DOWN<a href="/overview/"><i class="fa fa-angle-down"></i></a></p>
  
 </div>
  
