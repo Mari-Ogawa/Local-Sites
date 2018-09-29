@@ -14,7 +14,9 @@ get_header(); ?>
       <h1><?php the_time("Y年m月") ?>の記事一覧</h1>
     <?php endif; ?>
 
-
+<div id="main_blog">
+  <h1 class="title_E">blog</h1>
+  <h2 class="title_J">ブログ</h2>
 <?php
 $paged = (int) get_query_var('paged');
 $args = array(
@@ -29,10 +31,9 @@ $the_query = new WP_Query($args);
 if ( $the_query->have_posts() ) :
   while ( $the_query->have_posts() ) : $the_query->the_post();
 ?>
-<div id="main_blog">
+
 <div class="mainName">
-<h1 class="title_E">blog</h1>
-<h2 class="title_J">ブログ</h2>
+
 <article class="blogArchive" style="visibility: visible; animation-name: fadeInUp;">
  
 <div class="blogArchive_image"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/imgBlog.png" alt=""></a></div>
@@ -61,37 +62,6 @@ if ( $the_query->have_posts() ) :
 </article><!-- blogArchive_text end -->
 </div><!-- main_blog end -->
 
-    <article <?php post_class( 'kiji-list' ); ?>>
-      <a href="<?php the_permalink(); ?>">
-        <!--画像を追加-->
-        <?php if( has_post_thumbnail() ): ?>
-          <?php the_post_thumbnail('medium'); ?>
-        <?php else: ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/imgBlog.png" alt="no-img"/>
-        <?php endif; ?>
-        <div class="text">
-          <!--タイトル-->
-          <h2><?php the_title(); ?></h2>
-          <!--投稿日を表示-->
-          <span class="kiji-date">
-            <i class="fas fa-pencil-alt"></i>
-            <time datetime="<?php echo get_the_date( 'Y-m-d' ); ?>">
-              <?php echo get_the_date(); ?>
-            </time>
-          </span>
-          <!--カテゴリ-->
-          <?php if (!is_category()): ?>
-            <?php if( has_category() ): ?>
-              <span class="cat-data">
-              <?php $postcat=get_the_category(); echo $postcat[0]->name; ?>
-              </span>
-            <?php endif; ?>
-          <?php endif; ?>
-          <!--抜粋-->
-          <?php the_excerpt(); ?>
-        </div>
-      </a>
-    </article>
 
     <?php endwhile; endif; ?><!--ループ終了-->
 
