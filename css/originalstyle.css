@@ -570,6 +570,37 @@ ul li {
                 text-align: center;
         }
 }
+
+/* contact */
+ 
+#contact {
+        width: 80%;
+        margin:0 auto;
+}
+h3.contactHeading {
+        font-family: "Sawarabi Mincho";
+    font-weight: lighter;      
+}
+.contactDescription {
+        color: #333;   
+}
+ 
+ul.contact {
+        display: block;
+}
+ 
+li.contactNote {
+        margin-bottom: 0.3em;
+    line-height: 1.6;
+    padding-left: 1em;
+    text-indent: -1em;
+        color: #333;
+    font-size: 0.9rem;
+}
+.contactAttention {
+        color: red;    
+        font-size: 0.9rem;
+}
  
 /*privacy policy */
 #privacy {

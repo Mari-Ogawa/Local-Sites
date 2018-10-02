@@ -89,8 +89,8 @@ content="width=device-width, initial-scale=1.0 ">
         <h1 id="logo" style="display:block"><a href="#top">
 <img src="<?php echo get_template_directory_uri(); ?>/images/headerLogoS_b.png"  width="155" height="52" alt="四柱推命・九星気学の専門鑑定師　あわしま占い部"/></a></h1>
         <ul id="gnavi">
-                <li><a href="#reservation">reservation</a></li>
-                <li><a href="#main_contact">contact</a></li>
+                <li><a href="reservation">reservation</a></li>
+                <li><a href="contact">contact</a></li>
                 <li><a href="blog">blog</a></li>
                  <li><a href="overview#main_services">services&amp;price</a></li>
                 <li class="current"><a href="overview#main_profile">profile</a></li>
@@ -111,8 +111,8 @@ content="width=device-width, initial-scale=1.0 ">
             <li><a href="overview#main_profile">profile</a></li>
             <li><a href="overview#main_services">services&amp;price</a></li>
             <li><a href="blog">blog</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">reservation</a></li>
+            <li><a href="contact">contact</a></li>
+            <li><a href="reservation">reservation</a></li>
             </ul>
  
     </div>
