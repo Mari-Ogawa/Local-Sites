@@ -17,7 +17,7 @@ jQuery(function(){
 });
  
  
- 
+ /*
 //画面サイズが1024px以下になったらメニュー非表示
  
 jQuery(window).resize(function(){
@@ -66,7 +66,8 @@ jQuery(window).resize(function(){
         });
     }
 });
- 
+
+*/
  
 //クリックしたらスクロール
 jQuery(function(){

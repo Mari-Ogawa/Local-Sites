@@ -59,28 +59,33 @@ if ( $the_query->have_posts() ) :
 </dd>
 </dl>
 </div>
+
 </article><!-- blogArchive_text end -->
-</div><!-- main_blog end -->
+
+</div>
 
 
     <?php endwhile; endif; ?><!--ループ終了-->
 
-    <div class="pagination">
+<div class="pagination">
 <?php
 if ($the_query->max_num_pages > 1) {
   echo paginate_links(array(
-    'base' => get_pagenum_link(1) . '%_%',
+    'base' => get_pagenum_link(3) . '%_%',
     'format' => 'page/%#%/',
     'current' => max(1, $paged),
-    'total' => $the_query->max_num_pages
+    'total' => $the_query->max_num_pages,
+    'prev_text' => __('« Previous'),
+    'next_text' => __('Next »')
+
   ));
 }
 ?>
-    </div>
+</div>
 
-<?php wp_reset_postdata(); ?>
 
   <!--/div -->
 
+</div><!-- main_blog end -->
 </div>
 <?php get_footer(); ?>

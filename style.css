@@ -505,7 +505,7 @@ footer {
   }
 }
 
-/*ページネーション*/
+/*ページネーション plusersの場合
 .pagination {
   margin: 40px 0 30px;
   text-align: center;
@@ -536,7 +536,7 @@ footer {
 
 .pagination li > span {
   color: #fff;
-  background-color: #464646;
+  background-color: #eeeeee;
 }
 
 .pagination li a:hover {
@@ -552,6 +552,72 @@ footer {
   background-color: transparent;
 }
 
+*/
+
+/* pagination オリジナル　*/
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    position: relative;
+    font-size: 1.1rem;
+    font-family: 'Josefin Slab', serif;
+}
+
+.pagination span, .pagination a {
+    display: block;
+    width: auto;
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid #eeeeee;
+    text-decoration: none;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* ページ番号 */
+.pagination .pager{
+    width: 34px;
+}
+
+/* ホバー時 & 現在のページ */
+.pagination a:hover,
+.pagination .current  {
+    color: #fff;
+    border-color: #a9a9a9;
+    background-color: #a9a9a9;
+}
+
+/* 前へ */
+.pagination a.before {
+    margin-right: 16px;
+}
+/* 次へ */
+.pagination a.next {
+    margin-left: 16px;
+}
+/* 最初へ */
+.pagination a.first {}
+/* 最後へ */
+.pagination a.last {}
+
+/* Page x / y */
+.pagination span.page_num {
+    display: none;
+}
+span.page-numbers.current {
+  width: 38px
+}
+a.page-numbers {
+  width: 38px;
+  color:#CC33FF;
+}
+a.next.page-numbers {
+  width: auto;
+
+}
 /*記事のCSS*/
 .kiji {
   font-size: 1em;

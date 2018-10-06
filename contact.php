@@ -18,8 +18,10 @@ get_header(); ?>
         <li class="contactNote">＊ご入力頂きましたお客様の個人情報につきましては、お問い合わせの対応のために使用させて頂きます。</li>
         <li class="contactNote">＊お返事のメールの一部または全部の転載、二次利用はご遠慮くださいませ。</li>          
         </ul>
-        <p class="contactAttention">「※」は必須項目です。</p>
- 
+        <p class="contactAttention">「＊」は必須項目です。</p>
+
+
+<?php echo do_shortcode( '[contact-form-7 id="72" title="お問い合わせフォーム"]' ); ?>
  
  
     </div>

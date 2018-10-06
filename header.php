@@ -92,8 +92,13 @@ content="width=device-width, initial-scale=1.0 ">
                 <li><a href="reservation">reservation</a></li>
                 <li><a href="contact">contact</a></li>
                 <li><a href="blog">blog</a></li>
-                 <li><a href="overview#main_services">services&amp;price</a></li>
+                <?php if(is_page( 'overview' )): ?>
+                <li><a href="#main_services">services&amp;price</a></li>
+                <li class="current"><a href="#main_profile">profile</a></li>
+                <?php else: ?>
+				<li><a href="overview#main_services">services&amp;price</a></li>
                 <li class="current"><a href="overview#main_profile">profile</a></li>
+				<?php endif; ?>
         </ul>
 </div><!-- header end -->
  
@@ -108,8 +113,13 @@ content="width=device-width, initial-scale=1.0 ">
     <div class="toggle-nav_body">
         <h1 class="toggle-logo"><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/coccinelli_s.png" width="41" height="46" alt="四柱推命・九星気学の専門鑑定師　あわしま占い部"></a></h1>
             <ul id="toggle-nav">
-            <li><a href="overview#main_profile">profile</a></li>
+            <?php if(is_page( 'overview' )): ?>
+            <li><a href="#main_profile">profile</a></li>
+            <li><a href="#main_services">services&amp;price</a></li>
+            <?php else: ?>
+            <li class="current"><a href="overview#main_profile">profile</a></li>
             <li><a href="overview#main_services">services&amp;price</a></li>
+			<?php endif; ?>
             <li><a href="blog">blog</a></li>
             <li><a href="contact">contact</a></li>
             <li><a href="reservation">reservation</a></li>
