@@ -27,6 +27,8 @@ register_sidebar(array(
 }
 add_action( 'widgets_init', 'widgetarea_init' );
 
+
+
 // contact form 
 function my_contact_enqueue_scripts(){
 wp_deregister_script('contact-form-7');
