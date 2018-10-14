@@ -139,11 +139,18 @@ get_header(); ?>
 <dt class="blog_share_title">Share Contents</dt>
 <dd>
 <ul class="blog_share_list u-cf">
-<li class="blog_share_item _facebook"><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" target="_blank" title="この記事をFacebookでシェア">この記事をFacebookでシェア</a></li>
+<li class="blog_share_item _hatena"><a href="http://b.hatena.ne.jp/add?mode=confirm&url={<?php echo get_the_permalink(); ?>}&title={<?php echo get_the_title(); ?>}" target="_blank" rel="nofollow">この記事をはてブでシェア</a></li>
  
-<li class="blog_share_item _twitter"><a href="https://twitter.com/intent/tweet?text=%E7%84%A1%E6%96%99%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB%E3%83%90%E3%82%B9%E9%81%8B%E4%BC%91%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%82+%7C+神勝寺 禅と庭のミュージアム+https%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" target="_blank" title="この記事をTwitterでシェア">この記事をTwitterでシェア</a></li>
+<li class="blog_share_item _twitter"><a href="https://twitter.com/share?
+url=<?php echo get_the_permalink(); ?>&
+via=awashimauranai&
+related=あわしま占い部&
+hashtags=あわしま占い部,占い,四柱推命,九星気学&
+text=<?php echo get_the_title(); ?>" 
+rel="nofollow" 
+target="_blank">この記事をTwitterでシェア</a></li>
  
-<li class="blog_share_item _mail"><a href="mailto:?subject=%E7%84%A1%E6%96%99%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB%E3%83%90%E3%82%B9%E9%81%8B%E4%BC%91%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%82&amp;body=%E7%84%A1%E6%96%99%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB%E3%83%90%E3%82%B9%E9%81%8B%E4%BC%91%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%82%20:%20神勝寺 禅と庭のミュージアム%0d%0ahttps%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" title="この記事をメールで送る">この記事をメールで送る</a></li>
+<li class="blog_share_item _line"><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" target="_blank" title="この記事をLINEでシェア">この記事をLINEでシェア</a></li>
 </ul>
 </dd>
 </dl>
@@ -166,11 +173,11 @@ get_header(); ?>
 <dt class="blog_share_title">Share Contents</dt>
 <dd>
 <ul class="blog_share_list u-cf">
-<li class="blog_share_item _facebook"><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" target="_blank" title="この記事をFacebookでシェア">この記事をFacebookでシェア</a></li>
+<li class="blog_share_item _hatena"><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" target="_blank" title="この記事をはてブでシェア">この記事をはてブでシェア</a></li>
  
 <li class="blog_share_item _twitter"><a href="https://twitter.com/intent/tweet?text=%E7%84%A1%E6%96%99%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB%E3%83%90%E3%82%B9%E9%81%8B%E4%BC%91%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%82+%7C+神勝寺 禅と庭のミュージアム+https%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" target="_blank" title="この記事をTwitterでシェア">この記事をTwitterでシェア</a></li>
  
-<li class="blog_share_item _mail"><a href="mailto:?subject=%E7%84%A1%E6%96%99%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB%E3%83%90%E3%82%B9%E9%81%8B%E4%BC%91%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%82&amp;body=%E7%84%A1%E6%96%99%E3%82%B7%E3%83%A3%E3%83%88%E3%83%AB%E3%83%90%E3%82%B9%E9%81%8B%E4%BC%91%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%80%82%20:%20神勝寺 禅と庭のミュージアム%0d%0ahttps%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" title="この記事をメールで送る">この記事をメールで送る</a></li>
+<li class="blog_share_item _line"><a href="https://www.facebook.com/share.php?u=https%3A%2F%2Fszmg.jp%2Ftopics%2Farticle%2F389" target="_blank" title="この記事をLINEでシェア">この記事をLINEでシェア</a></li>
 </ul>
 </dd>
 </dl>

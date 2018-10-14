@@ -95,7 +95,7 @@ content="width=device-width, initial-scale=1.0 ">
                           }
                     ?>
                </li-->
-                <li><a href="reservation">reservation</a></li>
+                <li><a href="skype">online booking</a></li>
                 <li><a href="contact">contact</a></li>
                 <li><a href="blog">blog</a></li>
                 <?php if(is_page( 'overview' )): ?>
@@ -128,7 +128,7 @@ content="width=device-width, initial-scale=1.0 ">
 			<?php endif; ?>
             <li><a href="blog">blog</a></li>
             <li><a href="contact">contact</a></li>
-            <li><a href="reservation">reservation</a></li>
+            <li><a href="skype">online booking</a></li>
             </ul>
  
     </div>

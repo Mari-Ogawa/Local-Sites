@@ -3,6 +3,7 @@
  * Template Name: お問い合わせフォーム
  */
 get_header(); ?>
+<div class="container">
 <section>
 <div id="contact">
     <div class="mainName">
@@ -27,4 +28,5 @@ get_header(); ?>
  
 </div>
 </section>
+</div>
 <?php get_footer(); ?>

@@ -56,6 +56,62 @@ h1 {
     src: url(../fonts/NotoSerifCJKjp-hinted/NotoSerifCJKjp-ExtraLight.otf) format('opentype');
 }
 */
+
+/*---------------------------------------------------------*/
+/* Sidebar */
+/*---------------------------------------------------------*/
+#sidebar {
+    float: right;
+    width: 350px;
+    padding: 1.25em 0 0;
+}
+
+.sidebar-wrapper {
+    margin: 0 0 15px 0;
+}
+.sidebar-title {
+    border-left: solid 10px #99c348;
+    font-size: 1.2em;
+    padding: 10px 0 10px 20px;
+    margin: 8px 0;
+    color: #555;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+}
+.textwidget {
+    padding: 0 8px;
+}
+#calendar_wrap {
+    text-align: center;
+}
+#calendar_wrap table {
+    margin-left: auto;
+    margin-right: auto;
+}
+#calendar_wrap table a {
+    text-decoration: underline;
+    color: #2ea7e0;
+}
+#calendar_wrap table a:hover {
+    background-color: #2ea7e0;
+    color: #fff;
+}
+.sidebar-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar-wrapper li {
+    border-bottom: dotted 1px #99c348;
+}
+.sidebar-wrapper li a {
+    display: block;
+    color: #555;
+    padding: 3px 0 3px 8px;
+}
+.sidebar-wrapper li a:hover {
+    background-color: #cfc;
+}
  
 #intro {
     height: 100vh;
@@ -286,7 +342,7 @@ ul#gnavi {
     overflow: hidden;
     max-width: 1000px;
     margin: 0;
-    padding-left: 180px;
+    padding-left: 120px;
     padding-top: 22px;
  
  
@@ -295,12 +351,13 @@ ul#gnavi {
 ul#gnavi li {
     text-align: center;
     float: right;
-    width: 120px;
+    width: auto;
     font-size: 20px;
     font-family: 'Josefin Slab', serif;
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 28px;
 }
  
 ul#gnavi li a {
@@ -415,7 +472,6 @@ span.item.ref {
     color:#333;
     width: 80%;
     margin:0 auto;
-    padding-top: 50px;
 }
  
  
@@ -534,16 +590,16 @@ ul li {
     float: right;
 }
  
-.blog_share_item._facebook a {
-    background-image: url(images/social-facebook.png);
+.blog_share_item._hatena a {
+    background-image: url(../images/ico_hatenabookmark.svg);
 }
  
 .blog_share_item._twitter a {
-    background-image: url(images/ico_twitter.svg);
+    background-image: url(../images/ico_twitter.svg);
 }
  
-.blog_share_item._mail a {
-    background-image: url(images/ico_mail.svg);
+.blog_share_item._line a {
+    background-image: url(../images/ico_line.svg);
 }
  
 .blogArchive-article a {
@@ -640,6 +696,7 @@ li.contactNote {
 .wpcf7 input[type="submit"] {
     margin-top: 30px;
     font-size: 100%;
+    font-family: 'Noto Serif Japanese' , 'ＭＳ Ｐ明朝', 'MS PMincho', 'ヒラギノ明朝 Pro W3', 'Hiragino Mincho Pro', serif;
     width: 95%;
     padding: 0.2em 0.4em;
     background: #fffff9;
@@ -658,6 +715,25 @@ li.contactNote {
     font-size: 80%;
 }
 
+/*  skype */
+#skype {
+    color:#333;
+    width: 80%;
+    margin:0 auto;
+}
+
+div.skypeDescription {
+    float: left;
+    width: 500px;
+    padding: 1.25em 0 0;
+}
+
+#right-sidebar {
+    float: right;
+    width: 25%;
+    padding: 1.25em 0 0;
+
+}
  
 /*privacy policy */
 #privacy {

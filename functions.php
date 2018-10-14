@@ -19,7 +19,7 @@ function widgetarea_init() {
 register_sidebar(array(
     'name'=>'サイドバー',
     'id' => 'side-widget',
-    'before_widget'=>'<div id="%1$s" class="%2$s sidebar-wrapper">',
+    'before_widget'=>'<div class="sidebar-wrapper">',
     'after_widget'=>'</div>',
     'before_title' => '<h4 class="sidebar-title">',
     'after_title' => '</h4>'
